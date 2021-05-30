@@ -102,7 +102,7 @@ if 'A' in S:
        print(": )___/ )   / )(_)( .-_)(   )__)( (__   )(     )(_)(  )   / ) _ < _)(_   )(  :")
        print(":(__)  (_)\_)(_____)\____) (____)\___) (__)   (_____)(_)\_)(____/(____) (__) :")
        print(":............................................................................:")
-       O = str(input(" whats the port youngling: "))
+       O = str(input(" whats the IP youngling: "))
        V = str(input(" and the port young one: "))
        os.system(f' python3 DRipper.py -s {O} -p {V} ')
 
@@ -152,4 +152,4 @@ if 'H' in S:
     time.sleep(2)
     os.system(' clear ')
     
-    os.system(' apt install perl git clone https://github.com/sullo/nikto && cd nikto && cd program ')
+    os.system(' sudo apt install perl git clone https://github.com/sullo/nikto && cd nikto && cd program ')
